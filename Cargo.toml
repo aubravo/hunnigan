@@ -1,7 +1,13 @@
 [package]
 name = "hunnigan"
+authors = ["aubravo <alvaroubravo@gmail.com>"]
 version = "0.1.0"
 edition = "2021"
+description = "An intelligence agent providing assistance directly where you need it. A CLI swiss army tool to interact with an Ollama hosted LLM."
+license = "MIT"
+license-file = "LICENSE"
+documentation = "https://docs.rs/hunnigan"
+homepage = "https://github.com/aubravo/hunnigan"
 
 [dependencies]
 clap = { version = "4.5.27", features = ["derive"] }
